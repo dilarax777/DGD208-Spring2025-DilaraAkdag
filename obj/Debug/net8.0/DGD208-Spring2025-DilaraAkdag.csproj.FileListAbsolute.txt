@@ -1,0 +1,15 @@
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/bin/Debug/net8.0/DGD208-Spring2025-DilaraAkdag
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/bin/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.deps.json
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/bin/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.runtimeconfig.json
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/bin/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.dll
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/bin/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.pdb
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.AssemblyInfoInputs.cache
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.AssemblyInfo.cs
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.csproj.CoreCompileInputs.cache
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.sourcelink.json
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.dll
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/refint/DGD208-Spring2025-DilaraAkdag.dll
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.pdb
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/DGD208-Spring2025-DilaraAkdag.genruntimeconfig.cache
+/Users/dilara/Desktop/DGD208-Spring2025-DilaraAkdag/DGD208-Spring2025-DilaraAkdag/obj/Debug/net8.0/ref/DGD208-Spring2025-DilaraAkdag.dll
