@@ -1,34 +1,44 @@
 using System;
+using System.Threading.Tasks;
 
-namespace InteractivePetSimulator
+public class Pet
 {
-    public class Pet
+    public string Name { get; set; }
+    public PetType PetType { get; set; }
+    public int Hunger { get; set; } = 50;
+    public int Sleep { get; set; } = 50;
+    public int Fun { get; set; } = 50;
+    public bool IsAlive { get; private set; } = true;
+    public PetStat Mood { get; private set; } = PetStat.Happy;
+
+    public async Task DecreaseStatsAsync()
     {
-        public string Name { get; private set; }
-        public PetType Type { get; private set; }
-
-        public int Hunger { get; private set; } = 50;
-        public int Sleep { get; private set; } = 50;
-        public int Fun { get; private set; } = 50;
-
-        public bool IsAlive => Hunger > 0 && Sleep > 0 && Fun > 0;
-
-        public Pet(string name, PetType type)
+        while (IsAlive)
         {
-            Name = name;
-            Type = type;
-        }
+            await Task.Delay(5000);
+            Hunger -= 1;
+            Sleep -= 1;
+            Fun -= 1;
 
-        public void UpdateStats(int hungerDelta, int sleepDelta, int funDelta)
-        {
-            Hunger = Math.Clamp(Hunger + hungerDelta, 0, 100);
-            Sleep = Math.Clamp(Sleep + sleepDelta, 0, 100);
-            Fun = Math.Clamp(Fun + funDelta, 0, 100);
-        }
+            if (Hunger <= 0 || Sleep <= 0 || Fun <= 0)
+            {
+                IsAlive = false;
+                break;
+            }
 
-        public void Tick() // zaman geçtikçe statüler azalsın
-        {
-            UpdateStats(-1, -1, -1);
+            UpdateMood();
         }
+    }
+
+    private void UpdateMood()
+    {
+        if (Hunger < 30 || Sleep < 30 || Fun < 30)
+            Mood = PetStat.Unhappy;
+        if (Hunger < 10 || Sleep < 10 || Fun < 10)
+            Mood = PetStat.Angry;
+        if (Hunger < 5 || Sleep < 5 || Fun < 5)
+            Mood = PetStat.Afraid;
+        if (Hunger > 50 && Sleep > 50 && Fun > 50)
+            Mood = PetStat.Happy;
     }
 }

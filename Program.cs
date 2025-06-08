@@ -1,25 +1,11 @@
 ﻿using System;
+using System.Threading.Tasks;
 
-namespace InteractivePetSimulator
+internal class Program
 {
-    internal static class Program
+    static async Task Main(string[] args)
     {
-        private static void Main(string[] args)
-        {
-            Console.Title = "Interactive Pet Simulator";
-
-            try
-            {
-                Game game = new Game();
-                game.Run(); // Game.cs içinde oyun akışını başlatan metot
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("An unexpected error occurred:");
-                Console.WriteLine(ex.Message);
-                Console.WriteLine("Press any key to exit...");
-                Console.ReadKey();
-            }
-        }
+        Game game = new Game();
+        await game.RunAsync();
     }
 }
